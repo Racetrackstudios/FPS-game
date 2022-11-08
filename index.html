@@ -41,6 +41,7 @@
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
         }
+        unityInstance.SetFullscreen(1);
         var div = document.createElement('div');
         div.innerHTML = msg;
         warningBanner.appendChild(div);
